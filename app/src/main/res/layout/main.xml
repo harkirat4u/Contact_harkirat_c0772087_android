@@ -88,6 +88,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@color/colorAccent"
+        android:drawableBottom="@android:drawable/ic_menu_send"
         android:gravity="center"
         android:text="View"
         android:textSize="20dp" />
