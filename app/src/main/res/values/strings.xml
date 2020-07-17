@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contact_harkirat_c0772087_android</string>
+    <string name="first_name">first_name</string>
+    <string name="last_name">last_name</string>
+    <string name="email">email</string>
+    <string name="phone">phone</string>
+    <string name="address">address</string>
+    <string name="contact_info">Contact Info</string>
+</resources>

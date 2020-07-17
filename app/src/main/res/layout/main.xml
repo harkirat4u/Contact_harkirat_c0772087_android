@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDD6D6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#FFC107"
+        android:gravity="center"
+        android:text="@string/contact_info"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/m_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#DFBFBF"
+        android:hint="Enter the  first name" />
+
+    <EditText
+        android:id="@+id/m_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#DFBFBF"
+        android:hint="Enter the last name" />
+
+    <EditText
+        android:id="@+id/m_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#DFBFBF"
+        android:hint="Enter the Email"
+        android:inputType="textEmailSubject" />
+
+    <EditText
+        android:id="@+id/m_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#DFBFBF"
+        android:hint="Enter the address" />
+
+    <EditText
+        android:id="@+id/m_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#DFBFBF"
+        android:layout_marginRight="20dp"
+        android:hint="Enter the phone"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#E4D868"
+        android:drawableTop="@android:drawable/ic_input_add"
+        android:gravity="center"
+        android:text="Add"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="View"
+        android:textSize="20dp" />
+</LinearLayout>
