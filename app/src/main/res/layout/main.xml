@@ -45,7 +45,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:background="#DFBFBF"
-        android:hint="Enter the Email"
+        android:hint="Enter the email"
         android:inputType="textEmailSubject" />
 
     <EditText
